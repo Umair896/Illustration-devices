@@ -1,0 +1,126 @@
+html {
+    font-family: 'Barlow';
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+/* IMAGE */
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.menus {
+    float: left;
+    margin-left: 330px;
+    margin-top: -30px;
+}
+
+.menus ul {
+    list-style: none;
+   
+}
+
+.menus ul li {
+   /* display: none; */
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    display: block;
+}
+.menus ul li a:hover {
+    background-color: green;
+}
+.menus ul li {
+    display: none;
+}
+.menus:hover ul li{
+    display: block;
+}
+.device {
+    margin-top: 70px; 
+    width: 90%;
+    height: 160px; 
+    margin-left: 20px;
+}
+
+/* team */
+.team ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.new{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.mono {
+    float: left;
+    color: gray;
+}
+.dash {
+    float: left;
+    color: gray;
+ }
+
+ .team h1 {
+     padding-top: 30px;
+     padding-left: 20px;
+     
+        
+ }
+
+ .team p {
+     padding-top: 15px;
+     padding-left: 20px;
+     width: 70%;
+     color: gray;
+ }
+
+ .demo {
+     margin-top: 30px;
+     margin-left: 20px;
+     float: left;
+     color: white;
+     background-color:hsl(0, 100%, 68%);
+     border-radius: 5px;
+     width: 130px;
+     height: 20px;
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .see {
+     float: left;
+     margin-top: 30px;
+     color: gray;
+     font-size: 12px;
+     margin-bottom: 80px;
+ }
